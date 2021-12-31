@@ -1,9 +1,15 @@
 {
-  "projectId": "1nt22d",
-  "defaultCommandTimeout": 30000,
-  "baseUrl": "https://sonic.ederm.com.au/",
+  "projectId": "6k3yms",
+  "defaultCommandTimeout": 60000,
+  "pageLoadTimeout":120000,
+  "baseUrl": "https://sonic.ederm.com.au",
   "chromeWebSecurity": false,
   "viewportWidth": 1366,
   "viewportHeight": 768,
-  "failOnStatusCode": false
+  "failOnStatusCode": false,
+  "env": {
+    "base": "https://sonic.ederm.com.au",
+    "beta": "http://localhost:3000",
+    "allureResultsPath": "report/results"
+  }
 }
